@@ -1,0 +1,26 @@
+# Reference
+# https://github.com/cypress-io/github-action/issues/534
+name: Cypress End-to-end tests
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Cypress tests
+        uses: cypress-io/github-action@v2
+        with:
+          quiet: false
+          browser: chrome
+          headless: true
+          record: false
+          start: npm start
+          wait-on: http://localhost:3000
+          wait-on-timeout: 180
+          env: true
+        env:
+          REACT_APP_API_URL: http://localhost:9000
