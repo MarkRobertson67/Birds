@@ -80,8 +80,8 @@
  
     .img {
     border-radius: 12px;
-    max-height: 90px;
-    max-width: 45%;
+    height: 70px;
+    max-width: 100px;
     /* object-fit: cover; */
   }
   
