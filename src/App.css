@@ -50,7 +50,7 @@
     align-items: center;
     width: 250px;
     margin: 0 auto;
-    margin-top: 2.5vh;
+    margin-top: 1.5vh;
     border: 1px solid #bacdd8;
     padding: 8px;
     border-radius: 12px;
@@ -97,7 +97,8 @@
 
   .checkout-container {
     box-sizing: border-box;
-    padding: 10px;
+    align-content: center;
+    padding: 40px;
     width: 250px;
   }
 
