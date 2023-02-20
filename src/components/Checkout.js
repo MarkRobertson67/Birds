@@ -28,8 +28,8 @@ import { useState } from "react";
       
       return (
         <div className="checkout-container">
-          <section>
-            <h1 className="title">Checkout</h1>
+          {/* <section> */}
+            <h1 className="title2">Checkout</h1>
             <form 
             onSubmit={userEntry}>
               <label>
@@ -83,7 +83,7 @@ import { useState } from "react";
               <br></br>
               <input style={{color: 'white', backgroundColor: 'black', fontWeight: 'bold'}} className="input-button" type="submit" text="Submit" />
             </form>
-          </section>
+          {/* </section> */}
         </div>
       );
     };

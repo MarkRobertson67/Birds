@@ -10,7 +10,7 @@ const BirdCards = ({ birds, addToCart }) => {
             <div className="name"><strong>{bird.name}</strong></div>
             <img className="img" src={bird.img} alt="birdimage" />
             <h7>Price: ${bird.amount}</h7>
-            <button className="checkout-button" onClick={() => addToCart(bird)}>Adopt Me</button>
+            <button className="checkout-button" onClick={() => addToCart(bird)}><span>Adopt Me</span></button>
           {/* </li> */}
         </div>
       ))}

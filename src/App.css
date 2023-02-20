@@ -28,17 +28,25 @@
   }
 
   .name {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 900;
     margin-top: 8px;
     margin-bottom: 8px;
     text-align: center;
   }
 
 .title {
+  width: 130px;
     color: aliceblue;
     background-color: green;
     text-align: center;
+}
+
+.title2 {
+  width: 230px;
+  color: aliceblue;
+  background-color: green;
+  text-align: center;
 }
 
   .bird-card {
@@ -48,11 +56,12 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    width: 250px;
+    width: 220px;
+    height: 220px;
     margin: 0 auto;
     margin-top: 1.5vh;
     border: 1px solid #bacdd8;
-    padding: 8px;
+    padding: 10px;
     border-radius: 12px;
   }
   
@@ -78,14 +87,17 @@
   }
   
   .checkout-button {
-    width: 60%;
-    height: 40px;
     box-sizing: border-box;
+    line-height: .5rem;
+    align-content: center;
+    /* padding: 5px; */
+    width: 60%;
+    height: 30px;
     background-color: #356366;
     color: #fff;
-    font-size: .9em;
+    font-size: auto;
     font-weight: bold;
-    border: none;
+    border: 1px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
