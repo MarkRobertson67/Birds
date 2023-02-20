@@ -81,7 +81,7 @@
     .img {
     border-radius: 12px;
     height: 70px;
-    max-width: 100px;
+    width: 100px;
     /* object-fit: cover; */
   }
   
