@@ -1,5 +1,5 @@
 
-![Landing page.](./assets/MyLandingPage.png)
+![Birds App](https://bird-sanctuary.netlify.app/)
 
 [![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)
 
