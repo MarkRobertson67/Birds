@@ -1,7 +1,5 @@
 <a href="https://bird-sanctuary.netlify.app/" target="_blank">Click here - Birds App</a>
 
-[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)
-
 # Bird Sanctuary
 
 ## Getting Started
